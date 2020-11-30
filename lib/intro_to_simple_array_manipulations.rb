@@ -23,5 +23,5 @@ end
 
 def using_delete(array)
   array == ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  array.delete("Steven")
+  array.delete(1, 3, 5)
 end
