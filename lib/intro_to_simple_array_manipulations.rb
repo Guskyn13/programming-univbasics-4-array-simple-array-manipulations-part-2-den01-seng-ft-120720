@@ -3,3 +3,5 @@ def using_concat(collection, array)
   array == ["sports cars", "flatiron school"]
 ["raindrops on roses", "whiskers on kittens"].concat(["sports cars", "flatiron school"])
 end
+
+["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"].insert(["Python"])
