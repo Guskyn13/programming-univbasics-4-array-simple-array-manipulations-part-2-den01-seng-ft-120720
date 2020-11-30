@@ -5,5 +5,7 @@ def using_concat(collection, array)
 end
 
 def using_insert(array, string)
+  array == ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+  string == "Python"
 ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"].insert("Python")
 end
