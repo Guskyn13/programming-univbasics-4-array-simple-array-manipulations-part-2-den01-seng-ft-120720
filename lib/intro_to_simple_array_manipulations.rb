@@ -9,3 +9,9 @@ def using_insert(array, string)
   string == "Python"
 ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"].insert("Python")
 end
+
+
+def using_uniq(array)
+  array == ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  array.uniq
+end
