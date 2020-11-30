@@ -1,5 +1,5 @@
 def using_concat(collection, array)
-  collection == "@my_favorite_things"
-  array == "@more_favs"
+  collection == ["raindrops on roses", "whiskers on kittens"]
+  array == "[sports cars", "flatiron school]"
 ["collection"].concat(["array"])
 end
