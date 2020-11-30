@@ -1,3 +1,1 @@
-def using_concat(array, array)
-array.concat(array)
-end
+["my_favorite_things"].concat(["more_favs"])
