@@ -15,3 +15,8 @@ def using_uniq(array)
   array == ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
   array.uniq
 end
+
+def using_flatten(array)
+  array == ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+  array.flatten!
+end
