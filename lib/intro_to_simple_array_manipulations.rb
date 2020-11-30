@@ -1,3 +1,3 @@
 def using_concat(array, array)
-  ["my_favorite_things"].concat(more_favs)
+  all_my_favs = using_concat(my_favorite_things, more_favs)
 end
