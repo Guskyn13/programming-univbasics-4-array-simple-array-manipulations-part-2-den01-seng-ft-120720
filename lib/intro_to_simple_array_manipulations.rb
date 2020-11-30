@@ -1,3 +1,1 @@
-def using_concat(array)
-["my_favorite_things"].concat(["more_favs"])
-end
+table_for(@all_my_favs, *args)
