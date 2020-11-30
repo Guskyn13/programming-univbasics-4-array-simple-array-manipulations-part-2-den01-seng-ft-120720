@@ -12,9 +12,6 @@ describe "using_concat" do
     expect(@all_my_favs).to eq(["raindrops on roses", "whiskers on kittens", "sports cars", "flatiron school"])
    end
 
-   it "increases the length of the first array" do 
-    expect(@my_favorite_things.length).to be > 2
-   end
 end
 
 describe "using_insert" do 
