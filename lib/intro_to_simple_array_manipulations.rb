@@ -26,3 +26,9 @@ def using_delete(array, string)
   string == "Steven"
   array.delete(string)
 end
+
+def using_delete_at(array, integer)
+  array == ["Johnny 5", "R2D2", "Robocop"]
+  integer == 2, 3
+  array.delete_at(integer)
+end
